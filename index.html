@@ -1,0 +1,457 @@
+<html __fvdsurfcanyoninserted="1" class=" clickberry-extension clickberry-extension-standalone clickberry-extension clickberry-extension-standalone clickberry-extension clickberry-extension-standalone"><head>
+        <meta charset="UTF-8">
+        <title>Happy Birthday</title>
+        <style>
+            /* If you can't see it just hit space in here*/
+            body {
+                font-family:'Wendy One', sans-serif;
+            }
+			
+			body {
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #FF1493), color-stop(100%, #010203));
+  background-image: -webkit-radial-gradient(#FF1493, #010203);
+  background-image: -moz-radial-gradient(#FF1493, #010203);
+  background-image: -o-radial-gradient(#FF1493, #010203);
+  background-image: radial-gradient(#FF1493, #010203);
+}
+            span {
+                text-transform: uppercase;
+            }
+            .container {
+                width: 800px;
+                height: 420px;
+                padding: 10px;
+                margin: 0 auto;
+                position: relative;
+                color:pink;
+            }
+            .container2 {
+                display:inline-block;
+                font-size: 100px;
+                color:purple;
+            }
+            .container3 {
+                display:inline-block;
+                font-size: 50px;
+                color:pink;
+            }
+            .balloon {
+                width: 738px;
+                margin: 0 auto;
+                padding-top: 30px;
+                position: relative;
+            }
+            .balloon > div {
+                width: 104px;
+                height: 140px;
+                background: rgba(182, 15, 97, 0.9);
+                border-radius: 0;
+                border-radius: 80% 80% 80% 80%;
+                margin: 0 auto;
+                position: absolute;
+                padding: 10px;
+                box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
+                -webkit-transform-origin: bottom center;
+            }
+            .balloon > div:nth-child(1) {
+                background: rgba(182, 15, 97, 0.9);
+                left: 0;
+                box-shadow: inset 10px 10px 10px rgba(135, 11, 72, 0.9);
+                -webkit-animation: balloon1 6s ease-in-out infinite;
+                -moz-animation: balloon1 6s ease-in-out infinite;
+                -o-animation: balloon1 6s ease-in-out infinite;
+                animation: balloon1 6s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(1):before {
+                color: rgba(182, 15, 97, 0.9);
+            }
+            .balloon > div:nth-child(2) {
+                background: rgba(242, 112, 45, 0.9);
+                left: 120px;
+                box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+                -webkit-animation: balloon2 6s ease-in-out infinite;
+                -moz-animation: balloon2 6s ease-in-out infinite;
+                -o-animation: balloon2 6s ease-in-out infinite;
+                animation: balloon2 6s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(2):before {
+                color: rgba(242, 112, 45, 0.9);
+            }
+            .balloon > div:nth-child(3) {
+                background: rgba(45, 181, 167, 0.9);
+                left: 240px;
+                box-shadow: inset 10px 10px 10px rgba(35, 140, 129, 0.9);
+                -webkit-animation: balloon4 6s ease-in-out infinite;
+                -moz-animation: balloon4 6s ease-in-out infinite;
+                -o-animation: balloon4 6s ease-in-out infinite;
+                animation: balloon4 6s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(3):before {
+                color: rgba(45, 181, 167, 0.9);
+            }
+            .balloon > div:nth-child(4) {
+                background: rgba(190, 61, 244, 0.9);
+                left: 360px;
+                box-shadow: inset 10px 10px 10px rgba(173, 14, 240, 0.9);
+                -webkit-animation: balloon1 5s ease-in-out infinite;
+                -moz-animation: balloon1 5s ease-in-out infinite;
+                -o-animation: balloon1 5s ease-in-out infinite;
+                animation: balloon1 5s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(4):before {
+                color: rgba(190, 61, 244, 0.9);
+            }
+            .balloon > div:nth-child(5) {
+                background: rgba(180, 224, 67, 0.9);
+                left: 480px;
+                box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
+                -webkit-animation: balloon3 5s ease-in-out infinite;
+                -moz-animation: balloon3 5s ease-in-out infinite;
+                -o-animation: balloon3 5s ease-in-out infinite;
+                animation: balloon3 5s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(5):before {
+                color: rgba(180, 224, 67, 0.9);
+            }
+            .balloon > div:nth-child(6) {
+                background: rgba(242, 194, 58, 0.9);
+                left: 600px;
+                box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
+                -webkit-animation: balloon2 3s ease-in-out infinite;
+                -moz-animation: balloon2 3s ease-in-out infinite;
+                -o-animation: balloon2 3s ease-in-out infinite;
+                animation: balloon2 3s ease-in-out infinite;
+            }
+            .balloon > div:nth-child(6):before {
+                color: rgba(242, 194, 58, 0.9);
+            }
+            .balloon > div:before {
+                color: rgba(182, 15, 97, 0.9);
+                position: absolute;
+                bottom: -11px;
+                left: 52px;
+                content:"▲";
+                font-size: 1em;
+            }
+            span {
+                font-size: 4.8em;
+                color: white;
+                position: relative;
+                top: 30px;
+                left: 50%;
+                margin-left: -27px;
+            }
+            /*BALLOON 1 4*/
+            @-webkit-keyframes balloon1 {
+                0%, 100% {
+                    -webkit-transform: translateY(0) rotate(-6deg);
+                }
+                50% {
+                    -webkit-transform: translateY(-20px) rotate(8deg);
+                }
+            }
+            @-moz-keyframes balloon1 {
+                0%, 100% {
+                    -moz-transform: translateY(0) rotate(-6deg);
+                }
+                50% {
+                    -moz-transform: translateY(-20px) rotate(8deg);
+                }
+            }
+            @-o-keyframes balloon1 {
+                0%, 100% {
+                    -o-transform: translateY(0) rotate(-6deg);
+                }
+                50% {
+                    -o-transform: translateY(-20px) rotate(8deg);
+                }
+            }
+            @keyframes balloon1 {
+                0%, 100% {
+                    transform: translateY(0) rotate(-6deg);
+                }
+                50% {
+                    transform: translateY(-20px) rotate(8deg);
+                }
+            }
+            /* BAllOON 2 5*/
+            @-webkit-keyframes balloon2 {
+                0%, 100% {
+                    -webkit-transform: translateY(0) rotate(6eg);
+                }
+                50% {
+                    -webkit-transform: translateY(-30px) rotate(-8deg);
+                }
+            }
+            @-moz-keyframes balloon2 {
+                0%, 100% {
+                    -moz-transform: translateY(0) rotate(6deg);
+                }
+                50% {
+                    -moz-transform: translateY(-30px) rotate(-8deg);
+                }
+            }
+            @-o-keyframes balloon2 {
+                0%, 100% {
+                    -o-transform: translateY(0) rotate(6deg);
+                }
+                50% {
+                    -o-transform: translateY(-30px) rotate(-8deg);
+                }
+            }
+            @keyframes balloon2 {
+                0%, 100% {
+                    transform: translateY(0) rotate(6deg);
+                }
+                50% {
+                    transform: translateY(-30px) rotate(-8deg);
+                }
+            }
+            /* BAllOON 0*/
+            @-webkit-keyframes balloon3 {
+                0%, 100% {
+                    -webkit-transform: translate(0, -10px) rotate(6eg);
+                }
+                50% {
+                    -webkit-transform: translate(-20px, 30px) rotate(-8deg);
+                }
+            }
+            @-moz-keyframes balloon3 {
+                0%, 100% {
+                    -moz-transform: translate(0, -10px) rotate(6eg);
+                }
+                50% {
+                    -moz-transform: translate(-20px, 30px) rotate(-8deg);
+                }
+            }
+            @-o-keyframes balloon3 {
+                0%, 100% {
+                    -o-transform: translate(0, -10px) rotate(6eg);
+                }
+                50% {
+                    -o-transform: translate(-20px, 30px) rotate(-8deg);
+                }
+            }
+            @keyframes balloon3 {
+                0%, 100% {
+                    transform: translate(0, -10px) rotate(6eg);
+                }
+                50% {
+                    transform: translate(-20px, 30px) rotate(-8deg);
+                }
+            }
+            /* BAllOON 3*/
+            @-webkit-keyframes balloon4 {
+                0%, 100% {
+                    -webkit-transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    -webkit-transform: translate(-15px, 20px) rotate(10deg);
+                }
+            }
+            @-moz-keyframes balloon4 {
+                0%, 100% {
+                    -moz-transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    -moz-transform: translate(-15px, 10px) rotate(10deg);
+                }
+            }
+            @-o-keyframes balloon4 {
+                0%, 100% {
+                    -o-transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    -o-transform: translate(-15px, 10px) rotate(10deg);
+                }
+            }
+            @keyframes balloon4 {
+                0%, 100% {
+                    transform: translate(10px, -10px) rotate(-8eg);
+                }
+                50% {
+                    transform: translate(-15px, 10px) rotate(10deg);
+                }
+            }
+            h1 {
+                position: relative;
+                top: 200px;
+                text-align: center;
+                color: white;
+                font-size: 3.5em;
+            }
+
+            .typewriter h3 {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                border-right: .15em solid orange; /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                letter-spacing: .15em; /* Adjust as needed */
+                animation: 
+                    typing 7s steps(40, end),
+                    blink-caret .75s step-end infinite;
+                color :white;
+                }
+            .typewriter p {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                border-right: .15em solid orange; /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                letter-spacing: .15em; /* Adjust as needed */
+                animation: 
+                    typing 3.5s steps(40, end),
+                    blink-caret .75s step-end infinite;
+                
+
+            }
+
+            /* The typing effect */
+            @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+                }
+
+            /* The typewriter cursor effect */
+            @keyframes blink-caret {
+                from, to { border-color: transparent }
+                50% { border-color: orange; }
+            }
+        </style>
+        <script>
+            window.open = function() {};
+            window.print = function() {};
+            // Support hover state for mobile.
+            if (false) {
+                window.ontouchstart = function() {};
+            }
+        </script>
+        <script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script>
+        <meta content="clickberry-extension-here">
+        <meta content="clickberry-extension-here">
+        <style type="text/css"></style>
+        <style type="text/css"></style>
+    <style type="text/css"></style><style type="text/css"></style><script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script><meta content="clickberry-extension-here"></head>
+    
+    <body>
+        <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
+        <div class="container">
+            <div class="balloon">
+                <div><span>D</span>
+                </div>
+                <div><span>Y</span>
+                </div>
+                <div><span>U</span>
+                </div>
+                <div><span>T</span>
+                </div>
+                <div><span>H</span>
+                </div>
+                <div><span>I</span>
+                </div>
+            </div>
+             <h1>Happy 1st Anniversary!</h1>
+        </div>
+        <div class="typewriter">
+            <h3>I can't express how important a role you play in my life. Thank you for everything. Can't wait to see you. Love</h3>
+        </div>
+        <div>
+            <h2 style="color:yellow; text-align:center;">We've been together for:</h2>
+        </div>
+
+        
+        <div style="text-align:center;">
+            <div class = "container2", id = "days">
+            </div>
+            <div class = "container2" style = "color:pink;">:
+            </div>
+            <div class = "container2", id = "hours">
+            </div>
+            <div class = "container2" style = "color:pink;">:
+            </div>
+            <div class = "container2", id = "minutes">
+            </div>
+            <div class = "container2" style = "color:pink;">:
+            </div>
+            <div class = "container2", id = "sec">
+            </div>
+        </div>
+        <div style="text-align:center;">
+            <div class = "container3" style = "color:darkred;">Days 
+            </div>
+            <div class="container3">:</div>
+            <div class = "container3" style = "color:darkred;">Hours 
+            </div>
+            <div class="container3">:</div>
+            <div class = "container3" style = "color:darkred;">Mins 
+            </div>
+            <div class="container3">:</div>
+            <div class = "container3" style = "color:darkred;">Secs 
+            </div>
+        </div> 
+        
+        <script>
+            
+        </script>
+        <script>
+            if (document.location.search.match(/type=embed/gi)) {
+                window.parent.postMessage('resize', "*");
+            }
+            function timer() {
+                    var date1 = new Date(2017,4,19,0,0,0,0);
+                    var date2 = new Date();
+                    var date3 = new Date(2017,7,19,10,00,00,0);
+                    var timeDiff = Math.abs((date1.getTime() - date2.getTime()));
+                    //console.log(timeDiff);
+                    if(timeDiff > 0){
+                        var milliSecDiff = timeDiff%1000;
+                        milliSecDiff = Math.floor(milliSecDiff/10);
+                        timeDiff=timeDiff/1000;
+                        var diffDays = Math.floor(timeDiff / (3600 * 24));
+                        timeDiff = timeDiff%(3600*24);
+                        var hourDiff = Math.floor(timeDiff/(3600));
+                        timeDiff = timeDiff%(3600);
+                        var minDiff = Math.floor(timeDiff/(60));
+                        timeDiff = timeDiff%(60);
+                        var secDiff = Math.floor(timeDiff);
+                        //console.log(milliSecDiff)
+                    
+                        document.getElementById('days').innerHTML = Math.floor(diffDays);
+                        document.getElementById('hours').innerHTML = Math.floor(hourDiff);
+                        document.getElementById('minutes').innerHTML = Math.floor(minDiff);
+                        document.getElementById('sec').innerHTML = Math.floor(secDiff);
+                        //document.getElementById('milliSec').innerHTML = Math.floor(milliSecDiff);
+                    }
+                    var timeDiff2 = Math.abs((date2.getTime() - date3.getTime()));
+                    console.log(timeDiff2)
+                    if(timeDiff2 > 0){
+                        var milliSecDiff2 = timeDiff2%1000;
+                        milliSecDiff2 = Math.floor(milliSecDiff/10);
+                        timeDiff2=timeDiff2/1000;
+                        var diffDays2 = Math.floor(timeDiff2 / (3600 * 24));
+                        timeDiff2 = timeDiff2%(3600*24);
+                        var hourDiff2 = Math.floor(timeDiff2/(3600));
+                        timeDiff2 = timeDiff2%(3600);
+                        var minDiff2 = Math.floor(timeDiff2/(60));
+                        timeDiff2 = timeDiff2%(60);
+                        var secDiff2 = Math.floor(timeDiff2);
+
+                        console.log(diffDays2+" daysMeet");
+                        console.log(hourDiff2+" hoursMeet");
+                        console.log(minDiff2+" minsMeet");
+                        console.log(secDiff2+" secsMeet");
+
+                        document.getElementById('daysMeet').innerHTML = Math.floor(diffDays2);
+                        document.getElementById('hoursMeet').innerHTML = Math.floor(hourDiff2);
+                        document.getElementById('minutesMeet').innerHTML = Math.floor(minDiff2);
+                        document.getElementById('secMeet').innerHTML = Math.floor(secDiff2);
+                    }
+
+                 }
+
+        window.setInterval(function(){timer();},10);
+        </script>
+    
+
+</body>
+
+    </html>
